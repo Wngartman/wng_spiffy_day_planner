@@ -8,7 +8,7 @@ var rowEl =  document.getElementsByClassName('row')
 
 console.log(rowEl)
 
-var rowHour = document.getElementById(rowEl[0].id);
+var rowHour = $('.').children()
 
 console.log(rowHour)
 function setRowColor(element, color) {
